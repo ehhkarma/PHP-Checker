@@ -4,7 +4,7 @@ if(!file_exists($argv[1])){
   echo "\n\t usage : php $argv[0] list.txt \n";
 }
 
-echo "[Mass Alexa Check]\n[Dang Boi c0ding]\n\n";
+echo "[Mass Alexa Checker]\n[Dang Boi c0ding]\n\n";
 $url=file_get_contents($argv[1]);
 $ex=explode("\r\n",$url);
 foreach ($ex as $urls){
